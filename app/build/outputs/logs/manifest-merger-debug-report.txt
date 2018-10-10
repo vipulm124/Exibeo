@@ -1,0 +1,208 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:2:1-66:12
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\0c9630bcf4b65d345803d6012bd4f5c0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\507fb194932e69ed61ade6e944bea0f8\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\2384ee6892d4ec5ca47c1ee89296f78e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\ec087eee6609ae946780fe96121715b2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\77fd1a66694d784ad3323f033478dfca\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\d43097e8eb61874d46e11bf7b5729149\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\bc0cfbe9148736b015de752b89a0af73\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\fc214bba16f0e655711971d948f450bb\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\5145d74155189efe291c1c828dfd7ed4\AndroidManifest.xml:17:1-31:12
+INJECTED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:2:1-66:12
+	package
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:4:5-29
+		INJECTED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:7:5-81
+	android:largeScreens
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:7:23-50
+	android:xlargeScreens
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:7:51-79
+uses-sdk
+ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:8:5-10:41
+INJECTED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:8:5-10:41
+INJECTED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\0c9630bcf4b65d345803d6012bd4f5c0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\0c9630bcf4b65d345803d6012bd4f5c0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\507fb194932e69ed61ade6e944bea0f8\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\507fb194932e69ed61ade6e944bea0f8\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\2384ee6892d4ec5ca47c1ee89296f78e\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\2384ee6892d4ec5ca47c1ee89296f78e\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\ec087eee6609ae946780fe96121715b2\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\ec087eee6609ae946780fe96121715b2\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\77fd1a66694d784ad3323f033478dfca\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\77fd1a66694d784ad3323f033478dfca\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\d43097e8eb61874d46e11bf7b5729149\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\d43097e8eb61874d46e11bf7b5729149\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\bc0cfbe9148736b015de752b89a0af73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\bc0cfbe9148736b015de752b89a0af73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\fc214bba16f0e655711971d948f450bb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\fc214bba16f0e655711971d948f450bb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\5145d74155189efe291c1c828dfd7ed4\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\5145d74155189efe291c1c828dfd7ed4\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:8:5-10:41
+INJECTED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:8:5-10:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\0c9630bcf4b65d345803d6012bd4f5c0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:9:9-35
+		INJECTED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:14:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:16:22-78
+application
+ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:18:5-64:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\0c9630bcf4b65d345803d6012bd4f5c0\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\0c9630bcf4b65d345803d6012bd4f5c0\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\507fb194932e69ed61ade6e944bea0f8\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\507fb194932e69ed61ade6e944bea0f8\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\2384ee6892d4ec5ca47c1ee89296f78e\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\2384ee6892d4ec5ca47c1ee89296f78e\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\ec087eee6609ae946780fe96121715b2\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\ec087eee6609ae946780fe96121715b2\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\77fd1a66694d784ad3323f033478dfca\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\77fd1a66694d784ad3323f033478dfca\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\d43097e8eb61874d46e11bf7b5729149\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\d43097e8eb61874d46e11bf7b5729149\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\bc0cfbe9148736b015de752b89a0af73\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\bc0cfbe9148736b015de752b89a0af73\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\fc214bba16f0e655711971d948f450bb\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\fc214bba16f0e655711971d948f450bb\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\5145d74155189efe291c1c828dfd7ed4\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\5145d74155189efe291c1c828dfd7ed4\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:21:9-41
+	android:icon
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:20:9-45
+	android:allowBackup
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:19:9-35
+	android:theme
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:22:9-41
+activity#com.irinnovative.exibeo.TestActivity
+ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:23:9-31:20
+	android:label
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:25:13-45
+	android:name
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:24:13-64
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:29:27-74
+activity#com.irinnovative.exibeo.LoginActivity
+ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:32:9-35:20
+	android:screenOrientation
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:34:13-49
+	android:name
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:33:13-41
+activity#com.irinnovative.exibeo.LandingScreen
+ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:36:9-41:20
+	android:screenOrientation
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:39:13-49
+	android:label
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:38:13-40
+	android:theme
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:40:13-44
+	android:name
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:37:13-41
+activity#com.irinnovative.exibeo.SplashScreen
+ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:42:9-45:20
+	android:screenOrientation
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:44:13-49
+	android:name
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:43:13-40
+activity#com.irinnovative.exibeo.LeaveForm
+ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:46:9-49:20
+	android:screenOrientation
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:48:13-49
+	android:name
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:47:13-37
+activity#com.irinnovative.exibeo.SelectStore
+ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:50:9-54:20
+	android:screenOrientation
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:53:13-49
+	android:label
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:52:13-41
+	android:name
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:51:13-39
+activity#com.irinnovative.exibeo.ForgotPassword
+ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:55:9-58:20
+	android:screenOrientation
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:57:13-49
+	android:name
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:56:13-42
+activity#com.irinnovative.exibeo.QuestionActivity
+ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:59:9-63:20
+	android:screenOrientation
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:62:13-49
+	android:label
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:61:13-49
+	android:name
+		ADDED from C:\Users\vipmalho\Downloads\Code\Code\Android\AndroidCode\Migrated\app\src\main\AndroidManifest.xml:60:13-44
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\0c9630bcf4b65d345803d6012bd4f5c0\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\507fb194932e69ed61ade6e944bea0f8\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\507fb194932e69ed61ade6e944bea0f8\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\2384ee6892d4ec5ca47c1ee89296f78e\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\2384ee6892d4ec5ca47c1ee89296f78e\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\ec087eee6609ae946780fe96121715b2\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\ec087eee6609ae946780fe96121715b2\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\77fd1a66694d784ad3323f033478dfca\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\77fd1a66694d784ad3323f033478dfca\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\d43097e8eb61874d46e11bf7b5729149\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\d43097e8eb61874d46e11bf7b5729149\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\bc0cfbe9148736b015de752b89a0af73\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\bc0cfbe9148736b015de752b89a0af73\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\fc214bba16f0e655711971d948f450bb\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\fc214bba16f0e655711971d948f450bb\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\5145d74155189efe291c1c828dfd7ed4\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\5145d74155189efe291c1c828dfd7ed4\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\0c9630bcf4b65d345803d6012bd4f5c0\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\vipmalho\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\0c9630bcf4b65d345803d6012bd4f5c0\AndroidManifest.xml:26:9-47

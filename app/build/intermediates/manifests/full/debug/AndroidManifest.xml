@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thoughtInc.exibeo"
+    android:versionCode="16"
+    android:versionName="4.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="26" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="26.0.0-alpha1" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:testOnly="true"
+        android:theme="@style/AppTheme2" >
+        <activity
+            android:name="com.irinnovative.exibeo.TestActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.irinnovative.exibeo.LoginActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.irinnovative.exibeo.LandingScreen"
+            android:label="Focus Point"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.irinnovative.exibeo.SplashScreen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.irinnovative.exibeo.LeaveForm"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.irinnovative.exibeo.SelectStore"
+            android:label="Select Store"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.irinnovative.exibeo.ForgotPassword"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.irinnovative.exibeo.QuestionActivity"
+            android:label="Store Audit Question"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/llTop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dip"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/linearlayout2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/textviewwelcome"
+                        android:layout_width="0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="Welcome"
+                        android:textColor="#6a6767"
+                        android:textSize="@dimen/landing_text_size" />
+
+                    <TextView
+                        android:id="@+id/textviewwelcomeresult"
+                        android:layout_width="0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="Not Available"
+                        android:textSize="@dimen/landing_text_size" >
+                    </TextView>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="5dip"
+                    android:background="@android:color/darker_gray"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:id="@+id/linearlayout3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+                    <TextView
+                        android:id="@+id/textviewcompany"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Company"
+                        android:textColor="#6a6767"
+                        android:textSize="@dimen/landing_text_size" />
+
+                    <TextView
+                        android:id="@+id/textviewcompanyresults"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Not Available"
+                        android:textSize="@dimen/landing_text_size" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="5dip"
+                    android:background="@android:color/darker_gray"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:id="@+id/linearlayout4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/textviewposition"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Position"
+                        android:textColor="#6a6767"
+                        android:textSize="@dimen/landing_text_size" />
+
+                    <TextView
+                        android:id="@+id/textviewpositionresults"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Not Available"
+                        android:textSize="@dimen/landing_text_size" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/separator"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="5dip"
+                    android:background="@android:color/darker_gray"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:id="@+id/linearlayout5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/textviewreporting"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Reporting To"
+                        android:textColor="#6a6767"
+                        android:textSize="@dimen/landing_text_size" />
+
+                    <TextView
+                        android:id="@+id/textviewreportingresults"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Not Available"
+                        android:textSize="@dimen/landing_text_size" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="5dip"
+                    android:background="@android:color/darker_gray"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/llTop"
+                android:layout_centerInParent="true"
+                android:layout_margin="10dip"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textviewfocuspoint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Focus Point"
+                    android:textColor="#6a6767"
+                    android:textSize="@dimen/landing_text_size" />
+
+                <EditText
+                    android:id="@+id/textviewfocusreults"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_border"
+                    android:editable="false"
+                    android:gravity="start"
+                    android:lines="3"
+                    android:padding="10dip"
+                    android:text="There is no focus point"
+                    android:textSize="@dimen/landing_text_size" />
+
+                <Button
+                    android:id="@+id/btn_focusacknowledgement"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dip"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="10dip"
+                    android:text="Acknowledge"
+                    android:textColor="#ffffff"
+                    android:textSize="10dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dip"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_storeaudit"
+                    style="@style/Button"
+                    android:background="@drawable/rounded_colour_green"
+                    android:drawableLeft="@drawable/audit"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:text="Create New Store Audit" />
+
+                <Button
+                    android:id="@+id/btn_leave"
+                    style="@style/Button"
+                    android:layout_marginTop="5dip"
+                    android:background="@drawable/rounded_corner_blue"
+                    android:drawableLeft="@drawable/leave"
+                    android:drawablePadding="5dip"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:text="Request Leave Application" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

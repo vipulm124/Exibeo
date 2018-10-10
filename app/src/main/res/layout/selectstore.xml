@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/linearlayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Select Store"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#03CE03" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/linearlayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_leave"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearlayout2"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <ListView
+            android:id="@+id/listviewstore"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:choiceMode="singleChoice" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_leave"
+        style="@style/Button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dip"
+        android:background="@drawable/rounded_colour_green"
+        android:drawableLeft="@drawable/ic_action_accept"
+        android:text="Submit"
+        android:visibility="gone" />
+
+</RelativeLayout>

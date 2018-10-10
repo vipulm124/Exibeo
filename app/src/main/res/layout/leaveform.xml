@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:gravity="center"
+        android:text="Apply Leave"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/theme_green" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:orientation="horizontal"
+        android:weightSum="4.5" >
+
+        <TextView
+            android:id="@+id/textviewfrom"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="From"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/edittextfrom"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/custom_border"
+            android:gravity="left"
+            android:hint="Select Start Date"
+            android:padding="10dip" >
+
+            <requestFocus />
+        </EditText>
+
+        <ImageView
+            android:id="@+id/imageviewcalfrom"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="0.5"
+            android:src="@drawable/cal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:orientation="horizontal"
+        android:weightSum="4.5" >
+
+        <TextView
+            android:id="@+id/textviewcompany"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="To"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/edittextto"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/custom_border"
+            android:gravity="left"
+            android:hint="Select End Date"
+            android:padding="10dip" >
+        </EditText>
+
+        <ImageView
+            android:id="@+id/imageviewcalto"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="0.5"
+            android:src="@drawable/cal" />
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spLeaveType"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="20dip"
+        android:layout_marginTop="30dip"
+        android:background="@drawable/custom_border" />
+
+    <EditText
+        android:id="@+id/etNumberOfDays"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:background="@drawable/custom_border"
+        android:gravity="left"
+        android:hint="Number of Days?"
+        android:inputType="number"
+        android:padding="10dip"
+        android:textAppearance="?android:attr/textAppearanceMedium" >
+    </EditText>
+
+    <Button
+        android:id="@+id/btnsubmitleave"
+        style="@style/Button"
+        android:layout_margin="20dip"
+        android:background="@drawable/rounded_colour_green"
+        android:drawableLeft="@drawable/leave"
+        android:text="Apply Leave" />
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dip"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/help_title_gest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="1"
+        android:textSize="17sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/bExpandableToggleButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Question One"
+        android:textSize="17sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Question 1"
+        android:textSize="17sp"
+        android:visibility="gone" />
+
+    <!-- content to hide/show -->
+
+    <LinearLayout
+        android:id="@+id/linearlayoutquestion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="20dip"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:id="@+id/rgAnswer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="10dip"
+            android:orientation="vertical" >
+
+           <!--  <RadioButton
+                android:id="@+id/rbYes"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Yes"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/rbNo"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="No"
+                android:textColor="#000000"
+                android:textSize="16sp" /> -->
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dip"
+            android:background="@color/blue_header"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+            android:text="Add Comment"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/etComment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dip"
+            android:background="@drawable/custom_border"
+            android:gravity="left"
+            android:hint="Comment"
+            android:lines="3"
+            android:padding="10dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" >
+        </EditText>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/separator"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="2dip"
+        android:background="@android:color/darker_gray"
+        android:visibility="visible" />
+
+</LinearLayout>

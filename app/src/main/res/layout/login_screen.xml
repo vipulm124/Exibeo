@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/loginbg" >
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:background="@drawable/landlogo" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@id/email_address"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_marginLeft="@dimen/large_margin"
+            android:layout_marginRight="@dimen/large_margin"
+            android:layout_marginTop="@dimen/large_margin"
+            android:background="@drawable/search"
+            android:drawableLeft="@drawable/emai_iconl"
+            android:drawablePadding="@dimen/medium_padding"
+            android:gravity="left|center"
+            android:hint="User Name"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/medium_padding" />
+
+        <EditText
+            android:id="@id/password"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_marginLeft="@dimen/large_margin"
+            android:layout_marginRight="@dimen/large_margin"
+            android:layout_marginTop="@dimen/ex_small_margin"
+            android:background="@drawable/search"
+            android:drawableLeft="@drawable/password_icon"
+            android:drawablePadding="@dimen/medium_padding"
+            android:gravity="left|center"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="@dimen/medium_padding" />
+
+        <CheckBox
+            android:id="@+id/rememberme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/large_margin"
+            android:layout_marginRight="@dimen/large_margin"
+            android:layout_marginTop="@dimen/ex_small_margin"
+            android:hapticFeedbackEnabled="true"
+            android:text="Remember Me"
+            android:textColor="#FFF" />
+
+        <Button
+            android:id="@id/sign_in_button"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_marginLeft="@dimen/large_margin"
+            android:layout_marginRight="@dimen/large_margin"
+            android:layout_marginTop="@dimen/small_margin"
+            android:background="@color/sign_in_button"
+            android:drawablePadding="@dimen/medium_padding"
+            android:gravity="center"
+            android:padding="@dimen/medium_padding"
+            android:text="Sign In" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/large_margin" >
+
+        <TextView
+            android:id="@id/forgot_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password"
+            android:textColor="@color/sign_in_button" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="abs__config_prefDialogWidth">320.0dip</dimen>
+    <dimen name="abs__action_bar_default_height">48.0dip</dimen>
+    <dimen name="abs__action_bar_icon_vertical_padding">8.0dip</dimen>
+    <dimen name="abs__action_bar_title_text_size">18.0dip</dimen>
+    <dimen name="abs__action_bar_subtitle_text_size">14.0dip</dimen>
+    <dimen name="abs__action_bar_subtitle_top_margin">-3.0dip</dimen>
+    <dimen name="abs__action_bar_subtitle_bottom_margin">5.0dip</dimen>
+    <dimen name="abs__action_button_min_width">56.0dip</dimen>
+    <dimen name="abs__dropdownitem_text_padding_left">8.0dip</dimen>
+    <dimen name="abs__dropdownitem_text_padding_right">8.0dip</dimen>
+    <dimen name="abs__dropdownitem_icon_width">32.0dip</dimen>
+    <dimen name="abs__search_view_text_min_width">160.0dip</dimen>
+    <dimen name="abs__search_view_preferred_width">320.0dip</dimen>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="large_text_size">20.0dip</dimen>
+    <dimen name="extra_large_text_size">30.0dip</dimen>
+    <dimen name="large_margin">40.0dip</dimen>
+    <dimen name="extra_large_margin">100.0dip</dimen>
+    <dimen name="medium_margin">30.0dip</dimen>
+    <dimen name="small_margin">40.0dip</dimen>
+    <dimen name="ex_small_margin">10.0dip</dimen>
+    <dimen name="ex_ex_small_margin">5.0dip</dimen>
+    <dimen name="small_padding">4.0dip</dimen>
+    <dimen name="medium_padding">8.0dip</dimen>
+    <dimen name="medium_padding_large_ex">14.0dip</dimen>
+    <dimen name="regiter_as_button_size">50.0dip</dimen>
+    <dimen name="header_size">60.0dip</dimen>
+    <dimen name="view_width">150.0dip</dimen>
+    <dimen name="view_higth">5.0dip</dimen>
+    <dimen name="small_text_size">12.0dip</dimen>
+    <dimen name="large_edit_text_size">100.0dip</dimen>
+    <dimen name="medium_margin_ex">8.0dip</dimen>
+    <dimen name="medium_margin_ex_ex">6.0dip</dimen>
+    <dimen name="small_ex_text_size">16.0dip</dimen>
+    <dimen name="thumbnail_image">200.0dip</dimen>
+    <dimen name="account_details_box_size">100.0dip</dimen>
+    <dimen name="minus_margin_medium">-40.0dip</dimen>
+    <dimen name="header_size_small">60.0dip</dimen>
+    <dimen name="slidingmenu_offset">120.0dip</dimen>
+    <dimen name="landing_text_size">18sp</dimen>
+
+</resources>

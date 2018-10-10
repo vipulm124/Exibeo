@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/llHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:elevation="4dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:text="Audit CheckList"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/theme_green" />
+
+        <TextView
+            android:drawableLeft="@android:drawable/ic_lock_idle_alarm"
+            android:drawablePadding="5dp"
+            android:layout_alignParentRight="true"
+            android:padding="3dp"
+            android:text="23:23"
+            android:layout_marginRight="10dp"
+            android:background="@color/background_material_light"
+            android:id="@+id/tvTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/questionlistmain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llHeader"
+        android:layout_marginBottom="80dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:scrollingCache="false" >
+    </ListView>
+
+    <Button
+        android:id="@+id/bnfinishandsubmit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dip"
+        android:background="@drawable/rounded_colour_green"
+        android:drawableLeft="@drawable/audit"
+        android:text="Finish auditing and Submit"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
